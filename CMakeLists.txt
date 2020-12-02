@@ -15,4 +15,4 @@ add_subdirectory(src)
 
 target_include_directories(${PROJECT_NAME} PRIVATE external/glfw/include)
 target_link_directories(${PROJECT_NAME} PRIVATE external/glfw/src)
-target_link_libraries(${PROJECT_NAME} glfw)
+target_link_libraries(${PROJECT_NAME} glfw GL GLU glut)

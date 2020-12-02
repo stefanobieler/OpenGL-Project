@@ -24,6 +24,8 @@ int main(int argc, char** argv){
 
     while(!glfwWindowShouldClose(mainWindow)){
 
+        glClear(GL_COLOR_BUFFER_BIT);
+
         glfwSwapBuffers(mainWindow);
 
         glfwPollEvents();
