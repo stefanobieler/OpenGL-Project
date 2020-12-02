@@ -1,2 +1,0 @@
-#define OGP_VERSION_MAJOR 1
-#define OGP_VERSION_MINOR 0
